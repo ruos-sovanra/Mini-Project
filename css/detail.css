@@ -97,3 +97,12 @@ h2 {
   border-radius: 50%;
   height: 30px;
 }
+@media (max-width: 768px) {
+  .image-container {
+    height: 300px;
+  }
+
+  .image {
+    height: 300px;
+  }
+}
