@@ -171,3 +171,5 @@ cards.forEach(function (card) {
   });
   cardContainer.appendChild(cardDiv);
 });
+
+alert("Hello, World!");
