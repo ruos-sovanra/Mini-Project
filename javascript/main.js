@@ -147,7 +147,7 @@ for (var i = 0; i < newArrivals.length; i++) {
                             </div>
                         `;
   productCard.addEventListener("click", function () {
-    window.location.href = "/layout/pageDetail.html";
+    window.location.href = "/Mini-Project/layout/pageDetail.html";
   });
 
   arrivalRow.appendChild(productCard);
@@ -167,7 +167,7 @@ cards.forEach(function (card) {
                                     </div>
                                 `;
   cardDiv.addEventListener("click", function () {
-    window.location.href = "/layout/products.html";
+    window.location.href = "/Mini-Project/layout/products.html";
   });
   cardContainer.appendChild(cardDiv);
 });
