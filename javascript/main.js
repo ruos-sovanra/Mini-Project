@@ -73,7 +73,7 @@ for (var i = 0; i < products.length; i++) {
 
   // Add event listener to navigate to pageDetail.html on card click
   productCard.addEventListener("click", function () {
-    window.location.href = "/Mini-Project/layout/pageDetail.html";
+    window.location.href = "/layout/pageDetail.html";
   });
 
   productRow.appendChild(productCard);
